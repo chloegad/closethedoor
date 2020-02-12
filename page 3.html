@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+
+
+
+
+
+
+.candles1{position: absolute;
+	height: auto;
+	width: auto;
+	top:30%;
+	left:35%;
+	animation: mover 0.8s infinite  alternate;
+
+	
+}
+.candles2{position: absolute;
+	height: auto;
+	width: auto;
+	top:50%;
+	left:45%;
+	animation: sideslidetwo 4s 5, slideup 4s; 
+	animation-duration: infinite ; 
+	
+
+	
+}
+
+.candles3{position: absolute;
+	height: auto;
+	width: auto;
+	top:15%;
+	left:63%;
+	animation: moveup 0.8s infinite  alternate;
+
+	
+}
+.candles4{position: absolute;
+	height: auto;
+	width: auto;
+	top:5%;
+	left:20%;
+	animation: sideslide 4s 5, slideup 4s; 
+	animation-duration: infinite ; 
+	
+
+
+	
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+@keyframes moveup {
+    0% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes sideslide {
+    0% {
+      transform: translate3d(0px, 0px, 0px);
+    }
+    50% {
+      transform:translate3d(50px, 00px, 0px);
+    }
+    100% {
+      transform:translate3d(-100px, 00px, 0px);
+    }
+  }
+@keyframes sideslidetwo {
+    0% {
+      transform: translate3d(0px, 0px, 0px);
+    }
+    50% {
+      transform:translate3d(-100px, 00px, 0px);
+    }
+    100% {
+      transform:translate3d(50px, 00px, 0px);
+    }
+  }
+
+	</style>
+
+</head>
+<body style="background-color: rgb(233,150,122);">
+
+
+
+<div class="candles1"> 
+
+<img  src="candles.png" height="500px" width="650px">
+
+</div>
+<div class="candles2"> 
+
+<img  src="candles.png" height="500px" width="650px">
+
+</div>
+<div class="candles3"> 
+
+<img  src="candles.png" height="500px" width="650px">
+
+</div>
+
+<div class="candles4"> 
+
+<img  src="candles.png" height="500px" width="650px">
+
+</div>
+
+</body>
+</html>
