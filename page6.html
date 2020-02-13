@@ -2,6 +2,28 @@
 <html>
 <head>
 	<style> 
+		.title {
+			font-family: "myFirstFont";
+			font-size: 35px;
+			text-align: center;
+			font-style: regular;
+			color: rgb(255,203,164);
+		}
+@font-face{
+	font-family: myFirstFont;
+			src: url("goblinone.ttf");
+		}
+
+
+		#text{
+			position: absolute;
+			top:50%;
+			left:3%;
+			/*transform: rotateY(-300deg);*/
+			text-orientation: upright;
+			transform: rotateZ(270deg);
+		}
+
 
 		.img1{border-radius: 50%; 
 			position: absolute;
@@ -145,6 +167,11 @@
 	</style>
 </head>
 <body style="background-color: rgb(255,136,77);">
+	<div class = "title" id="text">
+
+<p>Absorb</p>
+
+</div>
 
 <div>
 <img id="hello" class="img1" src="vaccum.png" height="250px" width="200px">
@@ -160,11 +187,17 @@
 
 </div>
 <div id="hey">
+
+<a href="page 2.html">
 <img class="img4" src="vaccum.png" height="240px" width="155px">
+</a>
 
 </div>
 <div id="hey">
+	<a href="page5.html">
 <img class="img5" src="vaccum.png" height="140px" width="155px">
+
+</a>
 
 </div>
 <div id="hey">
@@ -172,7 +205,9 @@
 
 </div>
 <div id="hey">
+	<a href="page4.html">
 <img class="img7" src="vaccum.png" height="100px" width="115px">
+</a>
 
 </div>
 
@@ -182,7 +217,9 @@
 </div>
 
 <div id="hey">
+	<a href="page 3.html">
 <img class="img10" src="cursor.png" height="450px" width="455px">
+</a>
 
 </div>
 
