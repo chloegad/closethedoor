@@ -1,148 +1,133 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<style> 
-#img1{
-	position: absolute; 
-/*	z-index:2;*/
-left:54%;
-top:46.5%;
+<style>
 
-z-index: 1;
-animation: swing ease-in-out 1s infinite alternate;
-    transform-origin: center -20px;
-    /*float:left;*/
-   
+	#letter{/*height: auto;*/
+	/*width: auto;*/
+	top:50%;
+	left:15%;
+	position: fixed;
+	bottom: 0px;
+	/*width: 100vw;*/
+	z-index: 1; 
+
+}
+
+	#letter2{/*height: auto;*/
+	/*width: auto;*/
+	top:50%;
+	left:50%;
+	position: fixed;
+	bottom: 0px;
+	/*width: 100vw;*/
+	z-index: 1; 
+
+}
+
+.postcard{position: relative;
+	/*height: auto;
+	width: auto;*/
+	/*top:30%;
+	left:10%;*/
+	/*text-align: center;*/
+z-index: 2;}
 
 
+	.postcard2{position: relative;
+	/*height: auto;
+	width: auto;*/
+	top:3%;
+	left:37%;
+	text-align: center;
+z-index: 2;}
+
+#p1{top:30%;
+	left:5%;
+
+}
 	
+	#p2{
+		
+		top:30%;
+	left:29%;
+
 }
 
-#img2{
-	position: absolute; 
-/*	z-index:2;*/
-left:35%;
-top:42%;
+	#p3{
+		
+		top:30%;
+	left:11%;
 
-z-index: 1;
-animation: swing ease-in-out 1s infinite alternate;
-    transform-origin: center -20px;
-   /* float:left;*/
-    /*box-shadow: 5px 5px 10px rgba(0,0,0,0.5);*/
+}
 
+#p4{
+		
+		top:30%;
+	left:15%;
 
-
-	
 }
 
 
-
-/*.pins{
-	width: 100%;
-    height: 100vh;
-   
-}
-*/
-#pin{ position: absolute;
-	 z-index: 2; 
-    top:5%;
-}
-#img3{
-	position: absolute; 
-/*	z-index:2;*/
-left:15%;
-top:43%;
-z-index: 1;
-animation: swing ease-in-out 1s infinite alternate;
-    transform-origin: center -20px;
-   /* float:left;*/
-   /* box-shadow: 5px 5px 10px rgba(0,0,0,0.5);*/
-
-
-
-	
-}
-
-#envelope{
-	position: absolute;
-
-top:3%;
-left:0%;
-transform: rotateZ(330deg);
-}
-.swing:after{
-    content: '';
-    position: absolute;  
-    /*width: 20px; height: 20px;  
-    border: 1px solid #999;*/
-    top: -10px; left: 50%;
-    z-index: 0;
-   /* border-bottom: none;
-    border-right: none;*/
-    transform: rotate(45deg);
-}
-
-.swing:after{
-    content: '';
-    position: absolute;  
-    /*width: 20px; height: 20px;  
-    border: 1px solid #999;*/
-    top: -10px; left: 50%;
-    z-index: 0;
-   /* border-bottom: none;
-    border-right: none;*/
-    transform: rotate(45deg);
-}
-.swing:after{
-    content: '';
-    position: absolute;  
-   /* width: 20px; height: 20px; */ 
-    /*border: 1px solid #999;*/
-    top: -10px; left: 50%;
-    z-index: 0;
-   /* border-bottom: none;
-    border-right: none;*/
-    transform: rotate(45deg);
-}
-@keyframes swing {
-    0% { transform: rotate(3deg); }
-    100% { transform: rotate(-3deg); }
-}
-
-#letter:hover {
+#p4:hover {
         transform: scale(1.5);
     }
-</style>
+
+    #p3:hover {
+        transform: scale(1.5);
+    }
+    #p1:hover {
+        transform: scale(1.5);
+    }
+	</style>
 </head>
+
 <body style= "background-color: rgb(240, 128, 128";>
 
-	<div class="pins">
+	  <div class="postcard">
+	  	<a href="page6.html">
+  	 <img id="p1" class="postcard" width="750px" height="550px" src="postcard.png">
+  	  </a>
+  </div>
 
-		<a href="https://www.cipepineles.com">
+  <div class="postcard">
+  		<a href="page 3.html">
+  	<img id="p2" class="postcard"  width="355px" height="350px" src="postcardback.png">
+  </a>
+  </div>
 
-	<img id="pin" src="pins.png" width="1500px" height="550px">
 
-</a>
+	  <div class="postcard">
+	  	
+  	 <img id="p3" class="postcard" width="850px" height="650px" src="postacrd2.png">
+  	  
+  </div>
 
-</div>
+  <div class="postcard">
+  	<img id="p2" class="postcard"  width="355px" height="350px" src="postcardback.png">
+  </div>
+  <div class="postcard">
+  		<a href="page5.html">
+  	 <img id="p4" class="postcard" width="750px" height="550px" src="postcard3.png">
+  	  </a>
+  </div>
 
-	<div>
-<a href="page 2.html">
-	 <img id="img1" width="650px" height="450px" src="postcard1 .png">
-	 <img id="img2" width="655px" height="550px" src="postacrd2.png">
-      <img id="img3" width="655px" height="540px" src="postcard3.png">
+  <div class="postcard">
+
+  		<a href="https://www.cipepineles.com">
+  	<img id="p2" class="postcard"  width="355px" height="350px" src="postcardback.png">
 
   </a>
+  </div>
+
+	  <div id="letter">
+
+  	
+  	<img id="letter" src="envelope2.png" height="550px" width="755px">
 
   </div>
 
-  <div id="envelope">
 
-  	<a href="page5.html">
-  	<img id="letter" src="envelope.png" height="350px" width="455px">
-
-  </a>
-  </div>
 
 </body>
 </html>
